@@ -70,6 +70,7 @@ body.custom-cursor-active .custom-cursor {
     body.custom-cursor-active {
         cursor: auto;
     }
+
     .custom-cursor {
         display: none !important;
     }
