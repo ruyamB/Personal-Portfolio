@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUYAM BHATTACHARJEE | Creative Engineer & Software Developer</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="RUYAM BHATTACHARJEE | Creative Engineer & Software Developer">
+    <meta name="description"
+        content="Portfolio of RUYAM BHATTACHARJEE. Creative Engineer & Software Developer, specializing in software engineering, AI-powered applications, and streaming infrastructure.">
+
+    <!-- Google Fonts: Forum & Space Grotesk -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Forum&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/dock.css">
+    <link rel="stylesheet" href="css/cursor.css">
+</head>
+
+<body>
+    <!-- Diagnostics System Boot Loader -->
+    <div class="system-loader" id="system-loader" role="status" aria-label="Booting portfolio engine">
+        <div class="loader-container">
+            <div class="loader-terminal-screen" id="loader-terminal-screen">
+                <div class="loader-log-row">> LAUNCHING ROM BIOS v4.15...</div>
+            </div>
+            <div class="loader-progress-section">
+                <div class="loader-stats-row">
+                    <span>SYSTEM DIAGNOSTICS</span>
+                    <span id="loader-percent">0%</span>
+                </div>
+                <div class="loader-bar-bg">
+                    <div class="loader-bar-fill" id="loader-bar-fill"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fine Dot Grid Matrix Backplane -->
+    <div class="dot-grid" aria-hidden="true"></div>
+
+    <!-- Floating Navigation Bar -->
+    <header class="header">
+        <nav class="nav-container">
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">/about</a></li>
+                <li><a href="#projects" class="nav-link">/projects</a></li>
+                <li><a href="#skills" class="nav-link">/skills</a></li>
+                <li><a href="#experience" class="nav-link">/history</a></li>
+                <li><a href="#contact" class="nav-link">/contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle visual theme" title="Toggle theme">
+                    <!-- Sun Icon -->
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path d="M12 2v2"></path>
+                        <path d="M12 20v2"></path>
+                        <path d="M4.93 4.93l1.41 1.41"></path>
+                        <path d="M17.66 17.66l1.41 1.41"></path>
+                        <path d="M2 12h2"></path>
+                        <path d="M20 12h2"></path>
+                        <path d="M6.34 17.66l-1.41 1.41"></path>
+                        <path d="M19.07 4.93l-1.41 1.41"></path>
+                    </svg>
+                    <!-- Moon Icon -->
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                    </svg>
+                </button>
+                <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Toggle mobile menu"
+                    aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Container (Vertical Scroll Layout) -->
+    <main class="scrolly-viewport" id="scrolly-viewport">
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <!-- Corner Metadata Identifiers -->
+            <div class="corner-meta top-left">2026</div>
+            <div class="corner-meta bottom-left">/portfolio</div>
+            <div class="corner-meta bottom-right">1433</div>
+
+            <div class="hero-centerpiece">
+                <!-- Title Layout Block -->
+                <div class="hero-title-group">
+                    <div class="title-row title-row-top">
+                        <h1 class="display-serif font-ruyam">RUYAM</h1>
+
+                        <!-- High-Fidelity Retro Macintosh Illustration in Inline SVG -->
+                        <div class="retro-pc-illustration" id="retro-pc">
+                            <svg class="retro-pc-svg" viewBox="0 0 140 120" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <!-- Sparkles / Energy Lines (Top-Right & Sides) -->
+                                <g class="pc-sparkles">
+                                    <!-- Sparkle Top Right 1 -->
+                                    <path d="M115 15L122 21" stroke="#f1b025" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M123 14L117 22" stroke="#f1b025" stroke-width="2" stroke-linecap="round" />
+                                    <!-- Sparkle Top Right 2 -->
+                                    <path d="M102 5L106 10" stroke="#f1b025" stroke-width="2" stroke-linecap="round" />
+                                    <!-- Left highlight wave -->
+                                    <path d="M10 50Q15 48 12 43" stroke="#f1b025" stroke-width="2"
+                                        stroke-linecap="round" />
+                                    <path d="M7 44Q11 43 9 39" stroke="#f1b025" stroke-width="1.5"
+                                        stroke-linecap="round" />
+                                </g>
+
+                                <!-- Computer Body Back Shadow -->
+                                <rect x="23" y="24" width="70" height="66" rx="6" fill="#c3c1bc" />
+
+                                <!-- Computer Main Bezel Frame -->
+                                <rect x="20" y="20" width="70" height="66" rx="6" fill="#e2e0da" stroke="#111111"
+                                    stroke-width="2" />
+
+                                <!-- Screen Bezel Recess -->
+                                <rect x="29" y="27" width="52" height="40" rx="3" fill="#cbc9c2" stroke="#111111"
+                                    stroke-width="1.5" />
+
+                                <!-- Glowing Mustard Screen -->
+                                <rect class="glowing-screen" x="32" y="30" width="46" height="34" rx="2" fill="#f1b025"
+                                    stroke="#111111" stroke-width="1" />
+
+                                <!-- Subtle screen detail (retro scanlines or terminal prompt) -->
+                                <rect x="36" y="34" width="6" height="4" fill="#ffffff" opacity="0.3" />
+                                <rect x="36" y="42" width="18" height="2" fill="#ffffff" opacity="0.2" />
+                                <rect x="36" y="46" width="12" height="2" fill="#ffffff" opacity="0.2" />
+
+                                <!-- Floppy Drive Slot -->
+                                <rect x="58" y="73" width="22" height="3" rx="1" fill="#111111" />
+                                <rect x="76" y="70" width="3" height="2" fill="#8b8984" />
+
+                                <!-- Ventilation slots / Vent details -->
+                                <line x1="28" y1="77" x2="38" y2="77" stroke="#111111" stroke-width="1.5"
+                                    stroke-linecap="round" />
+                                <line x1="28" y1="80" x2="34" y2="80" stroke="#111111" stroke-width="1.5"
+                                    stroke-linecap="round" />
+
+                                <!-- Stand / Swivel Base -->
+                                <path d="M38 86L34 98H76L72 86H38Z" fill="#c3c1bc" stroke="#111111" stroke-width="2"
+                                    stroke-linejoin="round" />
+
+                                <!-- Keyboard Deck -->
+                                <path d="M22 98L12 112H98L92 98H22Z" fill="#e2e0da" stroke="#111111" stroke-width="2"
+                                    stroke-linejoin="round" />
+
+                                <!-- Keyboard Key Grid (Stylized Lines) -->
+                                <rect x="18" y="102" width="68" height="7" rx="1.5" fill="#cbc9c2" stroke="#111111"
+                                    stroke-width="1.2" />
+                                <line x1="24" y1="102" x2="24" y2="109" stroke="#111111" stroke-width="1" />
+                                <line x1="34" y1="102" x2="34" y2="109" stroke="#111111" stroke-width="1" />
+                                <line x1="48" y1="102" x2="48" y2="109" stroke="#111111" stroke-width="1" />
+                                <line x1="62" y1="102" x2="62" y2="109" stroke="#111111" stroke-width="1" />
+                                <line x1="76" y1="102" x2="76" y2="109" stroke="#111111" stroke-width="1" />
+                                <rect x="36" y="106" width="32" height="3" rx="0.5" fill="#e2e0da" stroke="#111111"
+                                    stroke-width="0.8" />
+
+                                <!-- Retro Mouse (Wired to Side) -->
+                                <path d="M108 102H118V110H108V102Z" fill="#cbc9c2" stroke="#111111" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                                <line x1="113" y1="102" x2="113" y2="106" stroke="#111111" stroke-width="1" />
+                                <!-- Mouse Cord (Curving back to screen) -->
+                                <path d="M113 102C113 94 99 96 94 92" stroke="#111111" stroke-width="1" fill="none"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="title-row">
+                        <h1 class="display-serif font-bhattacharjee">BHATTACHARJEE</h1>
+                    </div>
+                </div>
+
+                <!-- Subheading Section (Split Layout) -->
+                <div class="hero-subtext">
+                    <div class="subtext-left">
+                        CREATIVE ENGINEER. VISUAL STORYTELLER.
+                    </div>
+                    <div class="subtext-right">
+                        CLEAN SYSTEMS. UX. AI. WEB3.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <a href="#about" class="scroll-button" aria-label="Scroll to portfolio content">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 5v14M5 12l7 7 7-7" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </a>
+        </section>
+
+        <!-- About Section (Editorial Print Style) -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="editorial-line"></div>
+                <div class="section-header reveal">
+                    <div class="header-col-left">
+                        <span class="section-num">[01]</span>
+                        <h2 class="editorial-heading">ABOUT ME</h2>
+                    </div>
+                    <p class="section-tagline-text">COMBINING LOGIC WITH TANGIBLE ART DIRECTION.</p>
+                </div>
+
+                <div class="about-editorial-grid">
+                    <div class="col-text reveal">
+                        <p class="lead-text">
+                            I am a creative engineer and software developer who works at the intersection of software,
+                            media, and artificial intelligence. I design and build technology-driven platforms that
+                            facilitate expression, accessibility, and digital storytelling.
+                        </p>
+                        <p>
+                            With expertise in AI-powered applications, streaming infrastructure, and workflow platforms,
+                            I build scalable, user-centric, and socially relevant systems using design-driven
+                            architectures, full-stack development, and solid analytical problem-solving.
+                        </p>
+                    </div>
+
+                    <div class="col-details reveal">
+                        <div class="detail-block">
+                            <h3>HOOGHLY ENGINEERING & TECHNOLOGY COLLEGE</h3>
+                            <p>Studying Computer Science, specializing in algorithmic designs, core system structures,
+                                and AI integrations (2024 — 2028).</p>
+                        </div>
+
+                        <div class="detail-block">
+                            <h3>HOOGHLY COLLEGIATE SCHOOL</h3>
+                            <p>Completed secondary schooling under the English Version stream, securing 81.8% with
+                                Physics, Chemistry, Maths, and Biology (2022 — 2024).</p>
+                        </div>
+
+                        <div class="detail-block">
+                            <h3>TACTILE SYSTEM DISKETTE</h3>
+                            <div class="retro-floppy-disk" title="Interactive Diskette - Hover to inspect shutter">
+                                <svg class="floppy-svg" viewBox="0 0 200 200" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <!-- Outer Shell (Tactile plastic) -->
+                                    <path d="M10 10H175L190 25V190H10V10Z" fill="var(--bg-card)"
+                                        stroke="var(--text-primary)" stroke-width="2" />
+
+                                    <!-- Top Center Label Recess (Metal sliding tracks) -->
+                                    <rect x="45" y="10" width="80" height="60" fill="var(--bg-base)"
+                                        stroke="var(--text-primary)" stroke-width="2" />
+
+                                    <!-- Magnetic Disk Media (visible when shutter moves) -->
+                                    <circle cx="85" cy="40" r="22" fill="#111111" stroke="var(--text-primary)"
+                                        stroke-width="1.5" />
+                                    <circle cx="85" cy="40" r="10" fill="#c3c1bc" stroke="var(--text-primary)"
+                                        stroke-width="1.5" />
+                                    <rect x="82" y="37" width="6" height="6" fill="#111111" />
+
+                                    <!-- Metal Shutter (Slides to the right on hover) -->
+                                    <g class="metal-shutter">
+                                        <rect x="45" y="6" width="60" height="66" rx="2" fill="var(--text-primary)" />
+                                        <!-- Metal shutter grooves -->
+                                        <line x1="55" y1="16" x2="55" y2="60" stroke="var(--bg-card)"
+                                            stroke-width="2" />
+                                        <line x1="65" y1="16" x2="65" y2="60" stroke="var(--bg-card)"
+                                            stroke-width="2" />
+                                        <line x1="75" y1="16" x2="75" y2="60" stroke="var(--bg-card)"
+                                            stroke-width="2" />
+                                        <!-- Label outline on metal -->
+                                        <rect x="85" y="16" width="12" height="44" fill="var(--color-accent)"
+                                            stroke="var(--bg-card)" stroke-width="1" />
+                                    </g>
+
+                                    <!-- Paper Label Sheet (Bottom) -->
+                                    <rect x="25" y="90" width="150" height="90" rx="3" fill="var(--bg-base)"
+                                        stroke="var(--text-primary)" stroke-width="2" />
+                                    <!-- Label stripe at top -->
+                                    <rect x="25" y="90" width="150" height="15" fill="var(--color-accent)"
+                                        stroke="var(--text-primary)" stroke-width="1" />
+
+                                    <!-- Typewriter Lines on Label -->
+                                    <line x1="35" y1="125" x2="165" y2="125" stroke="var(--border-light)"
+                                        stroke-width="1" stroke-dasharray="3 3" />
+                                    <line x1="35" y1="145" x2="165" y2="145" stroke="var(--border-light)"
+                                        stroke-width="1" stroke-dasharray="3 3" />
+                                    <line x1="35" y1="165" x2="165" y2="165" stroke="var(--border-light)"
+                                        stroke-width="1" stroke-dasharray="3 3" />
+
+                                    <!-- Typographic Label Content -->
+                                    <text x="35" y="101" fill="var(--text-primary)" font-family="monospace"
+                                        font-weight="800" font-size="8.5">RUYAM_DEV_SYS_v2</text>
+                                    <text x="35" y="121" fill="var(--text-secondary)" font-family="monospace"
+                                        font-size="7.5">COLL: HETC_2024_28</text>
+                                    <text x="35" y="141" fill="var(--text-secondary)" font-family="monospace"
+                                        font-size="7.5">CS_DEPT: ACTIVE</text>
+                                    <text x="35" y="161" fill="var(--color-accent)" font-family="monospace"
+                                        font-weight="700" font-size="8">HOVER TO OPEN</text>
+
+                                    <!-- Write Protect Notch -->
+                                    <rect x="168" y="172" width="14" height="14" rx="1" fill="var(--bg-base)"
+                                        stroke="var(--text-primary)" stroke-width="1.5" />
+                                    <rect x="172" y="176" width="6" height="6" fill="var(--text-primary)" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Showcase Section -->
+        <section class="projects-section" id="projects">
+            <div class="container">
+                <div class="editorial-line"></div>
+                <div class="section-header reveal">
+                    <div class="header-col-left">
+                        <span class="section-num">[02]</span>
+                        <h2 class="editorial-heading">Featured Engineering</h2>
+                    </div>
+                    <p class="section-tagline-text">SELECTED RECENT APPLICATIONS & UTILITIES.</p>
+                </div>
+
+                <div class="editorial-projects-grid">
+                    <!-- Project 1: Medora (Flagship Highlighted Project) -->
+                    <a href="https://medora-one.vercel.app/" target="_blank" rel="noopener noreferrer" class="editorial-project-card reveal flagship-card" id="proj-medora">
+                        <div class="proj-media-wrapper">
+                            <div class="editorial-graphic bg-payup">
+                                <div class="editorial-badge">FLAGSHIP SYSTEM</div>
+                                <div class="visual-ledger-mock">
+                                    <div class="ledger-header">
+                                        <span class="ledger-title">MEDORA LEDGER // SECURE_TRACK</span>
+                                        <span class="ledger-year">2026</span>
+                                    </div>
+                                    <div class="ledger-rows">
+                                        <div class="ledger-row"><span>BATCH_ID_VERIFIED</span><span
+                                                class="dotted-fill"></span><span>0x7B9C4F</span></div>
+                                        <div class="ledger-row"><span>BLOCKCHAIN_INDEX</span><span
+                                                class="dotted-fill"></span><span>NODE_HASH</span></div>
+                                        <div class="ledger-row"><span>JOURNEY_STATUS</span><span
+                                                class="dotted-fill"></span><span>TRANSPARENT</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proj-details-wrapper">
+                            <div class="proj-tags">
+                                <span>WEB3 / BLOCKCHAIN</span>
+                                <span>AI COPROCESSOR</span>
+                                <span>SUPPLY CHAIN</span>
+                                <span>TRANSPARENCY</span>
+                            </div>
+                            <h3 class="proj-title">Medora — Web3 & AI Medicine Tracker</h3>
+                            <p class="proj-desc">
+                                A web3 and AI-backed medicine tracking system engineered to ensure absolute transparency
+                                in the pharmaceutical journey. Integrates decentralized ledger transactions to register
+                                immutable batch verifications and AI coprocessor nodes to continuously audit and trace
+                                medicines from manufacturing facilities directly to local pharmacies.
+                            </p>
+                            <div class="proj-actions">
+                                <span class="editorial-link-btn">
+                                    <span>Top Pinned System</span>
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <line x1="7" y1="17" x2="17" y2="7"></line>
+                                        <polyline points="7 7 17 7 17 17"></polyline>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 2: Indie Movie Streaming Platform -->
+                    <a href="https://ngee.007575.xyz/" target="_blank" rel="noopener noreferrer" class="editorial-project-card reveal" id="proj-streaming">
+                        <div class="proj-media-wrapper">
+                            <div class="editorial-graphic bg-nova">
+                                <div class="visual-ledger-mock">
+                                    <div class="ledger-header">
+                                        <span class="ledger-title">INDIE OTT // STREAM_BUFFER</span>
+                                        <span class="ledger-year">2026</span>
+                                    </div>
+                                    <div class="ledger-rows">
+                                        <div class="ledger-row"><span>BANDWIDTH_OUTPUT</span><span
+                                                class="dotted-fill"></span><span>10 Gbps</span></div>
+                                        <div class="ledger-row"><span>OTF_TRANSCODE</span><span
+                                                class="dotted-fill"></span><span>ACTIVE</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proj-details-wrapper">
+                            <div class="proj-tags">
+                                <span>OTT / STREAMING</span>
+                                <span>SELF-HOSTED</span>
+                                <span>BRANDED FRONTEND</span>
+                                <span>COMMUNITY ENGINE</span>
+                            </div>
+                            <h3 class="proj-title">Indie Movie Streaming Platform (WIP)</h3>
+                            <p class="proj-desc">
+                                Conceptualized a public, self-hosted indie OTT platform dedicated to
+                                independent films, establishing a filmmaker submission model to foster a healthy
+                                community.
+                            </p>
+                            <div class="proj-actions">
+                                <span class="editorial-link-btn">
+                                    <span>Founder & Curator</span>
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <line x1="7" y1="17" x2="17" y2="7"></line>
+                                        <polyline points="7 7 17 7 17 17"></polyline>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    <!-- Project 3: Smart India Hackathon -->
+                    <div class="editorial-project-card reveal" id="proj-sih">
+                        <div class="proj-media-wrapper">
+                            <div class="editorial-graphic bg-nova">
+                                <div class="nova-layout-grid">
+                                    <div class="grid-block"></div>
+                                    <div class="grid-block filled"></div>
+                                    <div class="grid-block"></div>
+                                    <div class="grid-block"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proj-details-wrapper">
+                            <div class="proj-tags">
+                                <span>GPS INTEGRATION</span>
+                                <span>REAL-TIME TRACKING</span>
+                                <span>LOW-LATENCY BACKEND</span>
+                                <span>SCALABLE ARCH</span>
+                            </div>
+                            <h3 class="proj-title">Smart India Hackathon Bus Tracker</h3>
+                            <p class="proj-desc">
+                                Developed a live real-time bus tracking web application using driver-led GPS device
+                                integration for the Smart India Hackathon. Created an accessibility-first passenger-side
+                                tracking UI and optimized low-latency concurrent user routes.
+                            </p>
+                            <div class="proj-actions">
+                                <span class="editorial-link-btn disabled">
+                                    <span>SIH Selection x2</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: AI-Powered E-Library -->
+                    <div class="editorial-project-card reveal" id="proj-elibrary">
+                        <div class="proj-media-wrapper">
+                            <div class="editorial-graphic bg-payup">
+                                <div class="visual-ledger-mock">
+                                    <div class="ledger-header">
+                                        <span class="ledger-title">E-LIBRARY // INDEX_SECTORS</span>
+                                        <span class="ledger-year">2025</span>
+                                    </div>
+                                    <div class="ledger-rows">
+                                        <div class="ledger-row"><span>INDEXED_VOLS</span><span
+                                                class="dotted-fill"></span><span>12,850</span></div>
+                                        <div class="ledger-row"><span>AI_VECTORS</span><span
+                                                class="dotted-fill"></span><span>ENABLED</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proj-details-wrapper">
+                            <div class="proj-tags">
+                                <span>AI ENGINE</span>
+                                <span>DIGITAL LIBRARY</span>
+                                <span>MAINTENANCE</span>
+                                <span>OPTIMIZATION</span>
+                            </div>
+                            <h3 class="proj-title">AI-Powered E-Library</h3>
+                            <p class="proj-desc">
+                                Contributed to the development, deployment, and optimization of an AI-enabled digital
+                                library platform, overseeing system updates, performance tuning, and database routing as
+                                Maintenance Head.
+                            </p>
+                            <div class="proj-actions">
+                                <span class="editorial-link-btn disabled">
+                                    <span>Maintenance Head</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Capabilities (Skills) Section -->
+        <section class="skills-section" id="skills">
+            <div class="container">
+                <div class="editorial-line"></div>
+                <div class="section-header reveal">
+                    <div class="header-col-left">
+                        <span class="section-num">[03]</span>
+                        <h2 class="editorial-heading">System Capabilities</h2>
+                    </div>
+                    <p class="section-tagline-text">TECHNICAL CAPABILITIES & TOOLKITS.</p>
+                </div>
+
+                <div class="skills-editorial-grid">
+                    <!-- Core engineering skill block -->
+                    <div class="skills-column reveal">
+                        <h3 class="skills-col-title">/engineering</h3>
+                        <ul class="skills-list">
+                            <li class="skill-item">
+                                <span class="skill-label">Python Development</span>
+                                <span class="skill-detail">Computational Problem Solving</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-label">C, C++ & Java Coding</span>
+                                <span class="skill-detail">Object-Oriented Architecture</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-label">UI/UX Interface Design</span>
+                                <span class="skill-detail">Wireframes & Vector Layouts</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-label">Workflow Strategy</span>
+                                <span class="skill-detail">Technical Management & Ops</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Certifications block -->
+                    <div class="skills-column reveal">
+                        <h3 class="skills-col-title">/certifications</h3>
+                        <ul class="skills-list">
+                            <li class="skill-item">
+                                <span class="skill-label">NPTEL Business Ethics</span>
+                                <span class="skill-detail">Professional Standards</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-label">NPTEL Data Science</span>
+                                <span class="skill-detail">Data Analytics & Modeling</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-label">English Communication</span>
+                                <span class="skill-detail">Advanced Professional Proficiency</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-label">Udemy Python Bootcamp</span>
+                                <span class="skill-detail">Programming Foundations</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-label">Smart India Hackathon</span>
+                                <span class="skill-detail">Selection & Performance x2</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Interests & Communication block -->
+                    <div class="skills-column reveal">
+                        <h3 class="skills-col-title">/interests</h3>
+                        <ul class="skills-list">
+                            <li class="skill-item">
+                                <span class="skill-label">Languages (Trilingual)</span>
+                                <span class="skill-detail">English, Hindi, Bengali</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-label">Music Production</span>
+                                <span class="skill-detail">Sound Design & Engineering</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-label">Filmmaking</span>
+                                <span class="skill-detail">Creative Storytelling & Direction</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-label">Knowledge Sharing</span>
+                                <span class="skill-detail">Teaching & Public Workshops</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Timeline Section -->
+        <section class="experience-section" id="experience">
+            <div class="container">
+                <div class="editorial-line"></div>
+                <div class="section-header reveal">
+                    <div class="header-col-left">
+                        <span class="section-num">[04]</span>
+                        <h2 class="editorial-heading">Journey & Positions</h2>
+                    </div>
+                    <p class="section-tagline-text">PROFESSIONAL CHRONOLOGY.</p>
+                </div>
+
+                <div class="editorial-timeline">
+                    <!-- Item 1 -->
+                    <div class="timeline-row reveal">
+                        <div class="time-col-date">2024 — 2028</div>
+                        <div class="time-col-role">
+                            <h3 class="timeline-job">Computer Science Student</h3>
+                            <h4 class="timeline-org">Hooghly Engineering & Technology College</h4>
+                        </div>
+                        <div class="time-col-desc">
+                            Studying Computer Science, specializing in algorithmic designs, core system structures, and
+                            AI integrations. Developing foundational skills in data structures, design-first systems
+                            architectures, and advanced computing paradigms.
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="timeline-row reveal">
+                        <div class="time-col-date">2022 — 2024</div>
+                        <div class="time-col-role">
+                            <h3 class="timeline-job">Higher Secondary Education</h3>
+                            <h4 class="timeline-org">Hooghly Collegiate School (English Version)</h4>
+                        </div>
+                        <div class="time-col-desc">
+                            Completed secondary schooling under the English Version stream, securing an aggregate of
+                            81.8% with a major focus on Physics, Chemistry, Mathematics, and Biology.
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="timeline-row reveal">
+                        <div class="time-col-date">2025 — PRESENT</div>
+                        <div class="time-col-role">
+                            <h3 class="timeline-job">Developer who tryna do cool things</h3>
+                            <h4 class="timeline-org">Technical Open-Source Projects</h4>
+                        </div>
+                        <div class="time-col-desc">
+                            Developing a Web3-AI medicine tracking system (Medora), self-hosted movie streaming
+                            architectures, and hackathon workflow solutions (Smart India Hackathon Selection x2).
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="editorial-line"></div>
+                <div class="section-header reveal">
+                    <div class="header-col-left">
+                        <span class="section-num">[05]</span>
+                        <h2 class="editorial-heading">Establish Connection</h2>
+                    </div>
+                    <p class="section-tagline-text">SEND A MESSAGE OR EMAIL DIRECTLY.</p>
+                </div>
+
+                <div class="contact-editorial-grid">
+                    <div class="col-info reveal">
+                        <p class="contact-pitch">
+                            Have an engineering challenge, an aesthetic layout to design, or a full-stack platform to
+                            construct? Let's talk.
+                        </p>
+
+                        <div class="direct-channels">
+                            <div class="channel-block">
+                                <h4>EMAIL INQUIRIES</h4>
+                                <a href="mailto:ruyam.bhattacharya1@gmail.com"
+                                    class="editorial-contact-link">ruyam.bhattacharya1@gmail.com</a>
+                            </div>
+
+                            <div class="channel-block">
+                                <h4>LOCATION</h4>
+                                <span class="editorial-contact-link"
+                                    style="border:none; cursor:default; color:var(--text-primary); text-transform:uppercase;">Kolkata,
+                                    West Bengal</span>
+                            </div>
+                            <div class="channel-block">
+                                <h4>GITHUB CLUSTER</h4>
+                                <a href="https://github.com/ruyamB" target="_blank" rel="noopener noreferrer"
+                                    class="editorial-contact-link">github.com/ruyamB</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-form reveal">
+                        <!-- High Contrast Minimal Form -->
+                        <form class="editorial-form" id="contact-form">
+                            <div class="form-input-field">
+                                <label for="form-name" class="form-label">YOUR NAME</label>
+                                <input type="text" id="form-name" required placeholder="Type your name...">
+                            </div>
+
+                            <div class="form-input-field">
+                                <label for="form-email" class="form-label">YOUR EMAIL ADDRESS</label>
+                                <input type="email" id="form-email" required placeholder="Type your email address...">
+                            </div>
+
+                            <div class="form-input-field">
+                                <label for="form-message" class="form-label">TELL ME ABOUT YOUR PROJECT</label>
+                                <textarea id="form-message" required rows="5"
+                                    placeholder="Describe the scope, goals, and details..."></textarea>
+                            </div>
+
+                            <button type="submit" class="editorial-submit-btn" id="form-submit-btn">
+                                <span>SEND INQUIRY</span>
+                                <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.5">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </button>
+
+                            <div class="form-status-msg" id="form-status" aria-live="polite"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Vintage OS Social & Navigation Dock -->
+    <div class="social-dock-container" aria-label="Social & Navigation Dock">
+        <div class="social-dock">
+            <a href="#hero" class="dock-item" data-tooltip="Home OS">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+            </a>
+            <a href="#about" class="dock-item" data-tooltip="User Specs (About)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+            </a>
+            <a href="#projects" class="dock-item" data-tooltip="Systems Matrix (Projects)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+            </a>
+            <a href="#skills" class="dock-item" data-tooltip="Core Vectors (Capabilities)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+            </a>
+            <a href="#experience" class="dock-item" data-tooltip="System History (Log)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+            </a>
+            <a href="#contact" class="dock-item" data-tooltip="Secure Line (Contact)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+            </a>
+            <div class="tool-divider"
+                style="width: 2px; height: 30px; background-color: var(--text-primary); margin: 0 0.2rem;"
+                aria-hidden="true"></div>
+            <a href="https://github.com/ruyamB" target="_blank" rel="noopener noreferrer" class="dock-item"
+                data-tooltip="Github Cluster">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path
+                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                    </path>
+                </svg>
+            </a>
+        </div>
+    </div>
+
+
+
+    <!-- Custom Vector Crosshair Cursor -->
+    <div class="custom-cursor" id="custom-cursor" aria-hidden="true">
+        <svg class="cursor-vector" viewBox="0 0 24 24" fill="none">
+            <line x1="12" y1="2" x2="12" y2="22"></line>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <circle cx="12" cy="12" r="5"></circle>
+        </svg>
+    </div>
+
+    <!-- Core Script -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
